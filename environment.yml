@@ -1,0 +1,11 @@
+name: python_docker
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- python=3.5
+- pip==9.0.1
+- pip:
+  - ansible
+  - boto
+  - boto3
